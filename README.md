@@ -47,6 +47,8 @@ A **code-generation pipeline** that accepts a software project description and p
 | 6 | `autofix` *(conditional)* | `gpt-4.1` | Applies minimal targeted fixes if reviewer found issues |
 | 7 | `assembler` | `gpt-4.1-mini` | Merges all modules, generates `README.md` + `PROJECT.md`, saves to disk |
 
+<img width="212" height="917" alt="image" src="https://github.com/user-attachments/assets/263301fe-dfba-47b2-8114-741b3acfdc1f" />
+
 #### Key Schemas
 
 - **`RouterDecision`** — `needs_research: bool`, `queries: List[str]`
@@ -116,7 +118,7 @@ print(result["final"])   # full Markdown blog post
 # also saved to "{blog_title}.md"
 ```
 
----
+<img width="203" height="697" alt="image" src="https://github.com/user-attachments/assets/bcd607d5-2636-4508-9520-f223580cdef0" />
 
 ### 3. `Blog_writing_agent_with_images.ipynb`
 
