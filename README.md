@@ -1,5 +1,7 @@
 # Agent Orchestration
 
+> Multi-agent LangGraph pipelines that autonomously turn a single natural-language topic into a finished artifact — production Python code or a publishable blog post.
+
 A collection of multi-agent pipelines built with **LangGraph** that turn a single natural-language topic into a finished artifact — either a complete software project or a publishable blog post. Each notebook is a self-contained, runnable Colab demo.
 
 ---
@@ -14,7 +16,7 @@ User Topic
     │
     ├──(needs research)──▶  Research Agent  ─┐
     │                                         │
-    └──(no research needed)──────────────────▶ Orchestrator / Architect
+    └──(no research needed)─────────────────▶ Orchestrator / Architect
                                                        │
                                               Parallel Worker Agents  ← fan-out via Send()
                                                        │
